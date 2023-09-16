@@ -1,0 +1,5 @@
+read -vlog2k top.v simple_uart_tx.v
+hierarchy -top top
+synth_ice40
+write_json top.json
+
